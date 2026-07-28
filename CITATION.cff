@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: GOT-OP-Kosten-Rechner für Hunde
+message: Bitte zitieren Sie diese Software und Dokumentation mit den folgenden Angaben.
+type: software
+authors:
+  - name: Hello Hund Redaktion
+version: 1.0.0
+date-released: 2026-07-28
+url: https://hello-hund.de/hunde-op-kosten/
+repository-code: https://github.com/contentkueche/hello-hund-got-op-kosten
+license: MIT
+abstract: Browserbasierter Rechner für einzelne amtliche GOT-Operationspositionen beim Hund mit ein- bis dreifachem regulären Satz, Umsatzsteuer und klarer Abgrenzung zur vollständigen Tierarztrechnung.
+keywords:
+  - Hund
+  - Tierarztkosten
+  - GOT
+  - Operationskosten
+  - Rechner

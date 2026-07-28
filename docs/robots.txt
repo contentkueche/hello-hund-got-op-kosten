@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://contentkueche.github.io/hello-hund-got-op-kosten/sitemap.xml

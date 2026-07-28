@@ -1,0 +1,27 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "GOT-OP-Kosten-Rechner für Hunde",
+  "description": "Einbettungsdokumentation für einen browserbasierten Rechner zu einzelnen amtlichen GOT-Operationspositionen beim Hund.",
+  "version": "1.0.0",
+  "datePublished": "2026-07-28",
+  "codeRepository": "https://github.com/contentkueche/hello-hund-got-op-kosten",
+  "license": "https://spdx.org/licenses/MIT",
+  "author": {
+    "@type": "Organization",
+    "name": "Hello Hund Redaktion",
+    "url": "https://hello-hund.de/"
+  },
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Web browser",
+  "programmingLanguage": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "isBasedOn": "https://hello-hund.de/hunde-op-kosten/",
+  "sameAs": [
+    "https://contentkueche.github.io/hello-hund-got-op-kosten/",
+    "https://hello-hund.de/hunde-op-kosten-rechner-widget/"
+  ]
+}

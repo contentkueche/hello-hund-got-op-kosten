@@ -1,0 +1,54 @@
+<style>
+.hello-hund-op-cost-widget {
+  display: block;
+  width: 100%;
+  max-width: 980px;
+  height: 860px;
+  border: 0;
+}
+@media (max-width: 760px) {
+  .hello-hund-op-cost-widget { height: 1120px; }
+}
+@media (max-width: 480px) {
+  .hello-hund-op-cost-widget { height: 1320px; }
+}
+</style>
+
+<iframe
+  class="hello-hund-op-cost-widget"
+  src="https://hello-hund.de/hunde-op-kosten-rechner-widget/"
+  title="GOT-OP-Kosten-Rechner von Hello Hund"
+  width="100%"
+  height="860"
+  loading="lazy"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<script>
+(function (script) {
+  var frame = script.previousElementSibling;
+  if (!frame) return;
+  window.addEventListener("message", function (event) {
+    var data = event.data || {};
+    if (
+      event.origin !== "https://hello-hund.de" ||
+      event.source !== frame.contentWindow ||
+      data.type !== "hh-op-cost-widget-height"
+    ) return;
+    var height = parseInt(data.height, 10) || 0;
+    if (height >= 560 && height <= 2800) {
+      frame.style.height = height + "px";
+    }
+  });
+})(document.currentScript);
+</script>
+
+<p style="margin:8px 0;font:14px/1.5 system-ui,sans-serif">
+  <a
+    href="https://hello-hund.de/hunde-op-kosten/?utm_source=publisher&amp;utm_medium=embed&amp;utm_campaign=hunde-op-kosten-rechner"
+    target="_blank"
+    rel="noopener"
+    style="color:#174c3f;font-weight:700;text-underline-offset:3px">
+    Amtliche GOT-Quellen, vollständige Tabelle und Methodik: Hello Hund
+  </a>
+</p>

@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <title>GOT-OP-Kosten-Rechner für Hunde – kostenloses Widget</title>
+  <meta name="description" content="Einzelne GOT-Operationspositionen für Hunde berechnen und den neutralen Rechner kostenlos in Informationsseiten einbetten.">
+  <link rel="canonical" href="https://contentkueche.github.io/hello-hund-got-op-kosten/">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "GOT-OP-Kosten-Rechner für Hunde",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Web browser",
+    "softwareVersion": "1.0.0",
+    "description": "Browserbasierter Rechner für einzelne amtliche GOT-Operationspositionen beim Hund.",
+    "url": "https://contentkueche.github.io/hello-hund-got-op-kosten/",
+    "codeRepository": "https://github.com/contentkueche/hello-hund-got-op-kosten",
+    "license": "https://github.com/contentkueche/hello-hund-got-op-kosten/blob/main/LICENSE",
+    "isBasedOn": "https://hello-hund.de/hunde-op-kosten/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Hello Hund",
+      "url": "https://hello-hund.de/"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="https://hello-hund.de/?utm_source=github_pages&amp;utm_medium=foundation&amp;utm_campaign=got_op_kosten_widget">Hello Hund</a>
+    <nav aria-label="Seitennavigation">
+      <a href="#rechner">Rechner</a>
+      <a href="#methodik">Methodik</a>
+      <a href="#einbetten">Einbetten</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Kostenlos · werbefrei · browserlokal</p>
+        <h1>GOT-Operationskosten verständlich einordnen</h1>
+        <p class="hero-copy">Der Rechner zeigt den Netto- und Bruttowert einer ausgewählten amtlichen Gebührenposition. Praxen, Vereine und Redaktionen können ihn unverändert in eigene Informationsseiten einbetten.</p>
+        <div class="actions">
+          <a class="button" href="#rechner">Rechner ausprobieren</a>
+          <a class="button button--ghost" href="https://hello-hund.de/hunde-op-kosten/?utm_source=github_pages&amp;utm_medium=foundation&amp;utm_campaign=got_op_kosten_widget&amp;utm_content=hero">Vollständige Tabelle und Quellen</a>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <p>Eine GOT-Position ist nur ein Baustein der tatsächlichen Rechnung. Der Rechner macht diese Grenze sichtbar, statt einen vollständigen Endpreis vorzutäuschen.</p>
+        <dl>
+          <div><dt>Gebührensatz</dt><dd>1- bis 3-fach</dd></div>
+          <div><dt>Umsatzsteuer</dt><dd>separat ausgewiesen</dd></div>
+          <div><dt>Dateneingabe</dt><dd>keine Gesundheitsdaten</dd></div>
+          <div><dt>Werbung</dt><dd>keine im Widget</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="section section--tool" id="rechner">
+      <header class="section-head">
+        <div>
+          <p class="eyebrow">Live-Widget</p>
+          <h2>Eine Position transparent berechnen</h2>
+        </div>
+        <p>Wähle eine Operation und den regulären Gebührensatz. Untersuchung, Diagnostik, Narkose, Medikamente, Material, Aufenthalt und Nachsorge sind nicht automatisch enthalten.</p>
+      </header>
+      <div class="frame-shell">
+        <iframe
+          class="tool-frame"
+          src="https://hello-hund.de/hunde-op-kosten-rechner-widget/"
+          title="GOT-OP-Kosten-Rechner von Hello Hund"
+          width="100%"
+          height="860"
+          loading="eager"
+          sandbox="allow-scripts allow-same-origin"></iframe>
+      </div>
+    </section>
+
+    <section class="section" id="methodik">
+      <p class="eyebrow">Was der Wert bedeutet</p>
+      <h2>Saubere Rechnung, klare Grenze</h2>
+      <div class="method-grid">
+        <article>
+          <h3>Amtliche Position</h3>
+          <p>Jede Auswahl verweist auf eine Gebührenposition aus der deutschen GOT. Die angezeigte Auswahl ist redaktionell und nicht vollständig.</p>
+        </article>
+        <article>
+          <h3>Regulärer Satz</h3>
+          <p>Der Rechner berücksichtigt den einfachen, zweifachen oder dreifachen Satz und weist die Umsatzsteuer getrennt aus.</p>
+        </article>
+        <article>
+          <h3>Kein Kostenvoranschlag</h3>
+          <p>Weitere Leistungen können die tatsächliche Rechnung deutlich verändern. Bei einem Notfall zählt zuerst die tierärztliche Versorgung.</p>
+        </article>
+      </div>
+      <ul class="source-list">
+        <li><a href="https://www.gesetze-im-internet.de/got_2022/GOT.pdf">Gebührenordnung für Tierärztinnen und Tierärzte</a></li>
+        <li><a href="https://www.bundestieraerztekammer.de/tieraerzte/beruf/got/">Bundestierärztekammer: Informationen zur GOT</a></li>
+        <li>Datenstand des Widgets: 20. Juli 2026</li>
+      </ul>
+    </section>
+
+    <section class="section" id="einbetten">
+      <div class="embed-panel">
+        <div>
+          <p class="eyebrow">Für Informationsseiten</p>
+          <h2>Kostenlos einbetten</h2>
+          <p>Die Einbettung enthält keine Werbung oder Produktlinks. Auswahl und Berechnung bleiben im Browser. Bitte verwende den Code unverändert, damit Quellenhinweis und Abgrenzung erhalten bleiben.</p>
+          <a class="button button--ghost" href="https://github.com/contentkueche/hello-hund-got-op-kosten">Dokumentation und Lizenz</a>
+        </div>
+        <div class="embed-code">
+          <label for="embed-code">Einbettungscode</label>
+          <textarea id="embed-code" data-embed-code readonly spellcheck="false">&lt;iframe class="hello-hund-op-cost-widget" src="https://hello-hund.de/hunde-op-kosten-rechner-widget/" title="GOT-OP-Kosten-Rechner von Hello Hund" width="100%" height="860" loading="lazy" sandbox="allow-scripts allow-same-origin"&gt;&lt;/iframe&gt;</textarea>
+          <button type="button" data-copy-embed>Einbettungscode kopieren</button>
+          <p class="copy-status" data-copy-status role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Nachweise</p>
+      <h2>Offen dokumentiert</h2>
+      <div class="facts-grid">
+        <article><h3>Lizenz</h3><p>Einbettungscode und Dokumentation stehen unter der MIT-Lizenz.</p></article>
+        <article><h3>Datenschutz</h3><p>Keine Cookies, keine Werbung und keine Übertragung von Auswahlwerten durch das Widget.</p></article>
+        <article><h3>Zitierhinweis</h3><p>Hello Hund Redaktion (2026): GOT-OP-Kosten-Rechner für Hunde, Version 1.0.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <strong>Hello Hund Redaktion</strong><br>
+    Rechner und Dokumentation dienen der transparenten Einordnung einzelner GOT-Positionen und ersetzen weder tierärztliche Beratung noch einen Kostenvoranschlag.
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
